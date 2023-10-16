@@ -4,18 +4,18 @@
     {
         public string Name { get; private set; }
         public int GamesPlayed { get; private set; }
-        private int TotalGuesses;
+        private int totalGuesses;
 
-        public PlayerData(string name, int totalGuesses)
+        public PlayerData(string name, int guesses)
         {
             Name = name;
             GamesPlayed = 1;
-            TotalGuesses = totalGuesses;
+            totalGuesses = guesses;
         }
 
-        public void Update(int totalGuesses)
+        public void Update(int guesses)
         {
-            TotalGuesses += totalGuesses;
+            totalGuesses += guesses;
             GamesPlayed++;
         }
 
@@ -23,7 +23,7 @@
         {
             if (GamesPlayed > 0)
             {
-                return (double)TotalGuesses / GamesPlayed;
+                return (double)totalGuesses / GamesPlayed;
             }
 
             else
