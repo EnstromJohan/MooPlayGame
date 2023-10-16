@@ -8,7 +8,7 @@
         public string GenerateRandomNumber()
         {
             Random random = new Random();
-            correctGuess = random.Next(1000, 1000).ToString("D4");
+            correctGuess = new Random().Next(1000, 10000).ToString();
             return correctGuess;
         }
 

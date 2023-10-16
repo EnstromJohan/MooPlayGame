@@ -19,18 +19,8 @@
             GamesPlayed++;
         }
 
-        public double Average()
-        {
-            if (GamesPlayed > 0)
-            {
-                return (double)totalGuesses / GamesPlayed;
-            }
-
-            else
-            {
-                return 0.0;
-            }
-        }
+        //Hämtar antal gissningar per omgång
+        public double Average => GamesPlayed > 0 ? (double)totalGuesses / GamesPlayed : 0.0;
     }
 }
 

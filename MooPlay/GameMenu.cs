@@ -53,7 +53,7 @@
         private void DisplayTopList()
         {
             //Sorterar listan efter genomsnittliga gissningar
-            data.Sort((playerOne, playerTwo) => playerOne.Average().CompareTo(playerTwo.Average()));
+            data.Sort((playerOne, playerTwo) => playerOne.Average.CompareTo(playerTwo.Average));
 
             Console.WriteLine("Player   Games   Average");
             foreach (PlayerData player in data)
