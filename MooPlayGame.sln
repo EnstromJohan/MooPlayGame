@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MooPlay", "MooPlay\MooPlay.csproj", "{260F38D7-21A6-4C2A-AD7D-0DBCE135FAE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MooPlayTests", "MooPlayTests\MooPlayTests.csproj", "{F95896D2-FFB3-4474-84B0-FB9DEAEB5B8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{260F38D7-21A6-4C2A-AD7D-0DBCE135FAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260F38D7-21A6-4C2A-AD7D-0DBCE135FAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260F38D7-21A6-4C2A-AD7D-0DBCE135FAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95896D2-FFB3-4474-84B0-FB9DEAEB5B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95896D2-FFB3-4474-84B0-FB9DEAEB5B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95896D2-FFB3-4474-84B0-FB9DEAEB5B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95896D2-FFB3-4474-84B0-FB9DEAEB5B8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
